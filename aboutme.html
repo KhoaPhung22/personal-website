@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+      My first web page
+    </title>
+    <link rel="icon" type="image/x-icon" href="images/chibi raien crying.jpg">
+    <script src="javascript.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<center>
+  <!-- HEADER 1-->
+<h1 id ="header">Khoa Phung</h1>
+</center>
+<h2 id = header>A summary of me</h2>
+<div id = "hero-image">
+   <div id = "gridcontainer">
+      <body>
+        <div id = "introduce">
+          <p> My name is Khoa Phung and I am an international student from Vietnam.</p>
+          <p>I am currently is a first year student of Banchelor of Applied Computer Science, My student ID is B00918576.<br> I have come to Canada for 5 months since fall term. Although there are many things that I need to learn, I start to getting used to with most of them. </p>
+        </div>
+          <!--insert image-->
+        <div>
+            <img src= "images/RSDalhousie-Aerial-2021-Aug-01-DJI_0358-1200x800-c-default.jpg"alt ="Dalhousie University" id ="Dalpic" onclick="changeImage()">
+          <br>
+              <a href = "https://www.dal.ca/">Dalhousie University</a>
+        </div>
+        </body>
+        </div>
+      </div>
+
+        <!-- creating photo gallery-->
+        <div class="photo-gallery">
+          <div class="gallery1">
+            <img src="images/download (1).jpeg" alt="Image 1" class="gallery-image">
+            
+            <img src="images/download.jpeg" alt="Image 2" class="gallery-image">
+            
+            
+          </div>
+        </div>
+<!-- HEADER 2-->
+
+<hr>
+<div id ="interestandactivity">
+<div id = "interest">
+<h2 id = "header">My interest</h2>
+<body>
+  <p>I have many interest, but hobbies I spend most of my time are:</p>
+ <ol id = "interestlist">
+  <li>Playing sports such as basketball or soccer</li>
+ <li>Playing computer games</li>
+ </ol>
+ <p>Moreover, I recently find creating a website is interesting. I am working it through a course at school.</p>
+</body>
+</div>
+<hr>
+<!-- HEADER 3-->
+<div id = "Activities">
+<h3 id = header>Activities in the past</h3>
+    <body>
+      <!-- create table with detail-->
+       <table width = "800" border = "10" cellspacing = "20" id = "table">
+        <tr id ="tablecontent">
+          <th>An organizing member of Tan Binh high school English club</th>
+          <td>From 2018-2021</td>
+        </tr>
+        <tr id ="row1">
+          <th>An executive member of Dalhousie Vietnamese Society Association (DVSA)</th>
+          <td>From September 2022 - February 2023</td>
+        </tr>
+       </table>
+       </body>
+</div>
+</div>
+<hr>
+<!-- HEADER 4-->
+ <h4 id ="header">Education</h4>
+    <body>
+      <ul id ="educationlist">
+       <li>Graduated High School from Vietnam (2018-2021)</li>
+       <li>First year student of Banchelor of Applied Computer Science (2022 - now)</li>
+      </ul>
+    </body>
+
+  <hr>
+  <div>
+    <h4 class= "buttons">Change back ground color</h4>
+    <button id = "buttonCount" type = "button" onclick = "changeBackgroundColorForAboutMe()">Bright Mode</button>
+    <button id = "buttonCount" type = "button" onclick = "changeBackgroundColorForAboutMe1()">Dark Mode</button>
+    <button id = "buttonCount" type = "button" onclick = "returnBackgroundColorForAboutMe()">Return background color</button>
+ </div>
+</html>

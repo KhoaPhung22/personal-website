@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+      My first web page
+    </title>
+    <link rel="icon" type="image/x-icon" href="images/chibi raien crying.jpg">
+    <link href="style.css" rel="stylesheet">
+    <script src="javascript.js"></script>
+</head>
+<center>
+   <!-- HEADER 1-->
+  <h1 id ="header">Game developer</h1>
+  <!--input external video-->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/OLDacmE9Spk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </center>
+  <hr> 
+
+
+  <!-- HEADER 2-->
+
+   <div id = "flexcontainer">
+   <div>
+    <h2 id ="header1">What I need to do to become game developer</h2>
+    <hr>
+    </div>
+<div id= "content">
+   <body>
+         <p id = "content1">Developers use skills, such as analytical thinking, technical knowledge, communication, and creativity to succeed in their work.<br>Becoming a developer usually requires a university degree or college diploma in computer science, independent coding studies, or earning certifications in programming and game development.</p>
+         <p>Moreover, there are couple things I need to do before decide to pursuit this career</p>
+         <ol id ="gamedeveloperlist">
+         <li id = "content2">Analytical thinking</li>
+            <ul>
+               <p><strong> Analytical thinking to identify issues and consider multiple solutions.</strong> </p>
+             </ul>
+         <li id = "content2">Creativity and problem solving</li>
+            <ul>
+               <p><strong> Problem-solving skills help developers write innovative code and build novel games with new-level designs and strategies.</strong> </p>
+             </ul>
+            <li id = "content2">Communication skills</li>
+             <ul>
+         <p><strong>Communication skills assist game developers in taking instructions from management and project planners and collaborating with designers and 3D modelers.</strong> </p>
+         </ul>
+         </ol>
+          <p>For more details visit <a href="https://ca.indeed.com/career-advice/finding-a-job/how-to-become-game-developer#:~:text=Developers%20use%20skills%2C%20such%20as,in%20programming%20and%20game%20development.">How to become game developers</a></p>
+      </body>
+</div>
+<hr>
+<!-- HEADER 2-->
+
+   <div id ="h3container" >
+      <div><h3 id = "h3header">I am working on</h3></div>
+      <div id ="body3">
+      <body>
+         <ol>
+            <li id ="content2">Studying code as right now, espeacially Java. Because Java is one of the most popular language in the world and it is suitable for game development</li>
+            <li id ="content2">Digging into Unity</li>
+            <li id ="content3">Expand my imagination to create idea for my future games</li>
+         </ol>
+      </body>
+      </div>
+   </div>
+   
+   <hr>
+</div>
+<div >
+   <h4 class = "buttons">Click the button to show date</h4>
+   <button id = "buttonCount" onclick="displayDate()">Show the date</button>
+   <p id="demo"></p>
+</div>
+<div>
+   <h4 class = "buttons">Change font size of the webpage</h4>
+<button id = "buttonCount" type ="button" onclick="changeFontSize()">Change size to xx- large</button>
+<button id = "buttonCount" type = "button" onclick ="changeBack()">Change to normal size</button>
+</div>
+<div>
+   <h5 class= "buttons">Change back ground color</h5>
+   <button id = "buttonCount" type = "button" onclick = "changeBackgroundColorForCareer()">Bright Mode</button>
+   <button id = "buttonCount" type = "button" onclick = "changeBackgroundColorForCareer1()">Dark Mode</button>
+   <button id = "buttonCount" type = "button" onclick = "returnBackgroundColorForCareer()">Return background color</button>
+</div>
+<!--<p id = "clickCount">Count the number times click:  </p>-->
+<h6 class = "buttons">Simple calculator for the area of retangle:</h6>
+<form>
+   <label for="width" class = "buttons">Width:</label>
+   <input type="number" id="width" name="width" required>
+   <br>
+   <label for="height" class = "buttons">Height:</label>
+   <input type="number" id="height" name="height" required>
+   <br>
+   <button type="button" id="buttonCount" onclick="calculateTheArea()">Calculate</button>
+ </form>
+ <div id="result"></div>
+
+</html>
